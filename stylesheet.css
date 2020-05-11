@@ -37,8 +37,8 @@ img{
     margin-top: 10rem;
 }
 .heading h1{
-    font-size: 3.5rem;
-    color: rgba(255, 255, 255, .3);
+    font-size: 3rem;
+    color:   #00AAA0;
     text-transform: uppercase;
     font-weight: 300;
     position: relative;
@@ -234,7 +234,7 @@ li{
 .blog .list .use:hover,
 .blog .list .alert:hover,
 .blog .list .com:hover{
-    color: seagreen;
+    color:  #00FF00;
 }
 .blog{
     padding-top: 10rem;
