@@ -274,3 +274,62 @@ input[type="submit"]:hover{
 p{
     padding-left: 2rem;
 }
+
+@media screen and (max-width: 768px) {
+    body{
+        background: url("sitebg2.jpg") no-repeat fixed center;
+        background-size: cover;
+    }
+    .main h1{
+        font-size: 15rem;
+    }
+    .main h4{
+        font-size: 1.7rem;
+    }
+    .nav_list{
+        flex-direction: column;
+    }
+    li{
+        margin: 2rem 0;
+    }
+    .nav_link{
+        font-size: 4.5rem;
+    }
+    .about .heading h1{
+        font-size: 8rem;
+    }
+    .education .heading h1{
+        font-size: 3rem;
+    }
+    .details .nav{
+        flex-direction: initial;
+    }
+    .details li{
+        margin: 0 2rem;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .menu_toggler{
+        top: 2rem;
+        right: 2rem;
+    }
+    .main h1{
+        font-size: 8rem;
+    }
+    .main h4{
+        font-size: 1.4rem;
+    }
+    .nav_link{
+        font-size: 3.5rem;
+    }
+    .about .container{
+        flex-direction: column;
+    }
+    .profile_image{
+        margin: 0 0 7rem 0;
+    }
+    form{
+        width: 100%;
+    }
+}
