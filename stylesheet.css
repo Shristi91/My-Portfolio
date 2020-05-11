@@ -187,9 +187,10 @@ li{
     font-size: 9rem;
     opacity: .3;
 }
-.heading h3{
+.skill h3{
     font-size: 2rem;
     font-weight: 300;
+    color: seagreen;
 }
 .profile_image{
     flex: 1;
@@ -289,11 +290,21 @@ p{
     .main h4{
         font-size: 1.7rem;
     }
+    .container .heading h1{
+        font-size: 6rem;
+    }
+    .skill h3{
+        font-size: 4rem;
+    }
+    p{
+        font-size: 3rem;
+    }
     .nav_list{
         flex-direction: column;
     }
     li{
         margin: 2rem 0;
+        font-size: 2.6rem;
     }
     .nav_link{
         font-size: 4.5rem;
@@ -326,6 +337,18 @@ p{
     }
     .main h4{
         font-size: 1.4rem;
+    }
+    .container .heading h1{
+        font-size: 5rem;
+    }
+    .skill h3{
+        font-size: 3rem;
+    }
+    p{
+        font-size: 2.2rem;
+    }
+    li{
+        font-size: 1.8rem;
     }
     .nav_link{
         font-size: 3.5rem;
