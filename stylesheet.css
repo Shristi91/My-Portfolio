@@ -266,3 +266,5 @@ input[type="submit"]:hover{
     color: #221e3f;
     background-color: #ffe838;
 }
+p{
+    padding-left: 2rem;
