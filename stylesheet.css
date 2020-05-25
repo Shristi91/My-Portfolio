@@ -234,16 +234,14 @@ li{
 .blog .list .tec:hover,
 .blog .list .use:hover,
 .blog .list .alert:hover,
-.blog .list .com:hover{
+.blog .list .com:hover
+.blog .list .sql:hover{
     color:  #00FF00;
 }
 .blog{
     padding-top: 20rem;
 }
 .experience{
-    padding-top: 5rem;
-}
-.education{
     padding-top: 5rem;
 }
 .contact{
@@ -300,7 +298,7 @@ p{
         font-size: 4rem;
     }
     p{
-        font-size: 2.2rem;
+        font-size: 3rem;
     }
     .nav_list{
         flex-direction: column;
@@ -348,7 +346,7 @@ p{
         font-size: 3rem;
     }
     p{
-        font-size: 1.8rem;
+        font-size: 2.2rem;
     }
     li{
         font-size: 1.8rem;
@@ -366,49 +364,3 @@ p{
         width: 100%;
     }
 }
-@media screen 
-  and (device-width: 320px) 
-  and (device-height: 640px) 
-  and (-webkit-device-pixel-ratio: 2) 
-  and (orientation: landscape) {
-      body{
-        background: url("sitebg2.jpg") no-repeat fixed center;
-        background-size: cover;
-    }
-    .menu_toggler{
-        top: 2rem;
-        right: 2rem;
-    }
-    .main h1{
-        font-size: 5rem;
-    }
-    .main h4{
-        font-size: 1.4rem;
-    }
-    .container .heading h1{
-        font-size: 5rem;
-    }
-    .skill h3{
-        font-size: 3rem;
-    }
-    p{
-        font-size: 1.8rem;
-    }
-    li{
-        font-size: 1.8rem;
-    }
-    .nav_link{
-        font-size: 3.5rem;
-    }
-    .about .container{
-        flex-direction: column;
-    }
-    .profile_image{
-        margin: 0 0 7rem 0;
-    }
-    form{
-        width: 100%;
-    }
-}
-
-
